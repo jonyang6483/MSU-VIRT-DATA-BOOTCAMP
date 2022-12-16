@@ -104,15 +104,15 @@ Pasting Public Key into GitLab
 
 1.  Login to GitHub Account. 
 1.  Go the the profile icon in the upper right corner and select "Settings"
-![GitLab Profile](images/ssh-images/git-hub-profile.jpg)  
+![GitLab Profile](00-Documents/images/ssh-images/git-hub-profile.png)  
 1.  Select "SSH Keys" from the left menu
-![GitLab Menu](images/ssh-images/git-hub-ssh-key-menu.jpg)
+![GitLab Menu](00-Documents/images/ssh-images/git-hub-ssh-key-menu.png)
 1.  Paste the Public Key into the large input box
     * PC:  CTRL + V
     * mac:  CMD + V
     * Right Click
 1.  The title can be anything and the expiration date can be left blank.
-![GitLab Add Key](images/ssh-images/git-hub-ssh-key-add.jpg)
+![GitLab Add Key](00-Documents/images/ssh-images/gitlab-ssh-key-add.png)
 
 >**The Same Public Key can be used for both websites**
 
