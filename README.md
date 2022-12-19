@@ -40,7 +40,7 @@ I will refer to the `ClassRepo` as the folder that contains your actual GitLab r
 <details>
 <summary>Git Pull Fails Due to File Conflict</summary>
 
-![Pull Failed](./00-Documents/images/main-page/merge-conflict-gitlab/merge_conflict.jpg)  
+![Pull Failed](00-Documents/images/main-page/merge-conflict-gitlab/merge_conflict.jpg)  
 This error occurs occasionally.  Here's the scenario - you have pulled files and modified one or more of them.  I then upload changes to that specific file to GitLab.  When you pull, your `git` realizes that the copy it has doesn't match the file from the remote and doesn't know which one has the correct information.  
 What you can do is `stash` your files and look at the incoming updates.  Then if you want you can merge your files with the new files provided.
 1. Open the `ClassRepo` folder.
@@ -49,24 +49,19 @@ What you can do is `stash` your files and look at the incoming updates.  Then if
 1. Run `git pull` to pull the new files from GitLab for that week.  At this point you can go back and review the changed files so see if your changes need to be included.
 1. If you want your changes included in the files then Run `git stash pop` to merge your edits with the new edits. 
 1.  When you look at the changes to the files you wil see both edits and you can modify the file to get it to its desired format/content then remember to save it.
-![Pull Fixed](./00-Documents/images/main-page/merge-conflict-gitlab/git_pop_merge.jpg) 
+![Pull Fixed](00-Documents/images/main-page/merge-conflict-gitlab/git_pop_merge.jpg) 
 1. Check to make sure you have the activities for that week. If you have any issues, ask a TA.   
 ## Deleted Files by Accident
 There are several ways to bring back files.  The method largely depends on several factors - were you working with branches, were you working collaboratively with a group, what you have done since you deleted them, etc...  
 1.  **Method 1**:  This is probably the easiest check and least likely to cause bigger problems.  In terminal, run `git status`.  There is a chance that this will list the files that have been mofidied and deleted.  The instructions on the page will describe how to undo the deletion.  Usually you run `git restore <filepath/filename>`  
-![Deleted Files Fixed](./00-Documents/images/main-page/merge-conflict-gitlab/deleted_files_restore.jpg)
+![Deleted Files Fixed](00-Documents/images/main-page/merge-conflict-gitlab/deleted_files_restore.jpg)
 1.  **Method 2**:  To reset **everything** to the status of the previous pull, then run `git reset --hard HEAD`
-![Deleted Files Fixed](./00-Documents/images/main-page/merge-conflict-gitlab/deleted_files_reset.jpg)  
+![Deleted Files Fixed](00-Documents/images/main-page/merge-conflict-gitlab/deleted_files_reset.jpg)  
 </details>
 
 
 # GitHub  
 Used for homework and projects and will become your portfolio  
-
-<!-- > :arrow_lower_right: **Recent Updates:**  
->  *  Added two new details to `Create Repo and Clone` section:  
->      **Important Note:**  It is advised for `Mac` users to add `.DS_Store` to the `.gitignore` once it is cloned. Do this change from the local repo and `git add .` and `git commit` immedilately so that you don't forget.  
->      **Important Note:** After you have cloned your repo to your local machine, I would highly advise not adding any files through the online interface. This is often the cause of why a push fails - I have advice about how to correct the issue below - it's not really a problem but a common git procedure.     -->
 
 <details>
 <summary>Create Repo and Clone</summary>
@@ -125,9 +120,8 @@ After you get your initial files added to your repo folder then you can update y
 1.  Only submit links from you personal `GitHub` account.  **DO NOT TRY TO SUBMIT A `GITLAB` LINK.**
 1.  Go to your `GitHub repo` for the homework or project.
 1.  In the upper right corner of the repo is a green button that says `Code`.  Click this button.
-1.  Select `HTML` from the three tabs at the top of the new menu.
-1.  Click the copy button for the link.  It should be in the format of `https://github.com/<username>/<repo_name>.git`
-![Link Button](./00-Documents/images/main-page/general/submit-link.jpg)  
+1.  Select `HTTPS` from the three tabs at the top of the new menu.
+1.  Click the copy button for the link.  It should be in the format of `https://github.com/<username>/<repo_name>.git`  
 1.  Add this link to the submission location on the calendar that also shows when the homework is due.
 </details>
 
@@ -144,16 +138,16 @@ The message also usually says that there is a difference between the remote (git
 1.  Perform a `git pull origin main`
 1.  The conflicting files will be pulled onto your local machine but your existing content will also be there.  May seem confusing but just wait...
 1.  See the image below.  The error is near the top then I do a git pull and you can see the final message is `Automatic merge failed; fix conflicts and then commit the result.`. Notice the next line now says **`(main | merging)`**.
-![Fetch First](./00-Documents/images/main-page/merge-conflict-github/git-pull-merging.jpg) 
+![Fetch First](00-Documents/images/main-page/merge-conflit-github/git-pull-merging.jpg) 
 1.  Now if VSCode does not automatically come up then you need to do the following in terminal:  type `code .` to open the entire repo folder in VSCode.
 1.  The sidebar will show the conflicts by highlighting the conflict files in `red` and with a `!`.  it will look like this:
-![Merge Conflict](./00-Documents/images/main-page/merge-conflict-github/git-pull-merging-vscode.jpg) 
+![Merge Conflict](00-Documents/images/main-page/merge-conflict-github/git-pull-merging-vscode.jpg) 
 1.  Open this file by clicking on it and read the conflicts.  Here is an example of what it looks like.  You will need to modify the file so it is in it's final form.  
-![Merge Fix](./00-Documents/images/main-page/merge-conflict-github/merge-vscode-update.jpg)
+![Merge Fix](00-Documents/images/main-page/merge-conflict-github/merge-vscode-update.jpg)
 1.  You can see the differences in the code are in `turquoise` and `blue`.  You can edit this part so the only the code is left and then remember to save.   Here is an example:
-![VSCode Update](./00-Documents/images/main-page/merge-conflict-github/merge-vscode-update-corrected.jpg)
+![VSCode Update](00-Documents/images/main-page/merge-conflict-github/merge-vscode-update-corrected.jpg)
 1.  Now got to terminal and perform the normal `git add .`, `git commit -m "message`.  You will notice the terminal output changes.
-![Commit Fixes](./00-Documents/images/main-page/merge-conflict-github/merge-vscode-update-corrected-commit.jpg)
+![Commit Fixes](00-Documents/images/main-page/merge-conflict-github/merge-vscode-update-corrected-commit.jpg)
 1.  After comitting the changes, the terminal will show `(main)`.
 1.  You can do a `git push origin main` to get everything synchronized.  
 <br>
@@ -171,3 +165,6 @@ This is a non-recoverable process.  So only do this if you have a practice repo 
 1.  At the bottom of the page in the `Danger Zone` section, there is a `Delete this repository` button.  Last warning, this can not be undone.
 1.  Select `Delete` and follow the instructions.  
 </details>
+
+<br>
+© 2022 edX Boot Camps LLC
