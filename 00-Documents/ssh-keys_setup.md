@@ -125,7 +125,7 @@ If there are errors then we may need to do some updates or other changes.  The d
 
 ## Testing Connections in Terminal/GitBash
 1.  All the commands should be done in GitBash (PC) or Terminal (mac)
-1.  Check SSH Key for GitLab - Type: `ssh -T git@nu.bootcampcontent.com` and then hit enter. (Please note that there's one space between `ssh` and the hyphen, no spaces between the hyphen and the `T`, and the remaining `'git@....`. You might see a message saying that the authenticity of the host can't be established. This is nothing to worry about. When prompted with "Are you sure you want to continue connecting (yes/no/[fingerprint])?" Please type "yes" and then hit enter. If this succeeds, you'll see "Welcome to GitLab, @'your username'! 
+1.  Check SSH Key for GitLab - Type: `ssh -T git@michiganstate.bootcampcontent.com` and then hit enter. (Please note that there's one space between `ssh` and the hyphen, no spaces between the hyphen and the `T`, and the remaining `'git@....`. You might see a message saying that the authenticity of the host can't be established. This is nothing to worry about. When prompted with "Are you sure you want to continue connecting (yes/no/[fingerprint])?" Please type "yes" and then hit enter. If this succeeds, you'll see "Welcome to GitLab, @'your username'! 
 1.  Check SSH Key for GitHub - Type: `ssh -T git@github.com` and then hit enter. If this succeeds, you will see "Hi 'yourusername'! You've successfully authenticated, but GitHub does not provide shell access."
 1.  That is everything.  If you get those messages then you should be ready to go.  If you don't get those messsages then most likely you did not do all the steps and need to go back to the beginning and do all steps.  
 
