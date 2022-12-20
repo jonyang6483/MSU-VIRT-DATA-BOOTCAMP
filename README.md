@@ -33,7 +33,7 @@ I will refer to the `ClassRepo` as the folder that contains your actual GitLab r
 <summary>How to Update Your Local Copy of the Class Repo</summary>
 
 1. Open the `ClassRepo` folder.
-1. Right-click the `NU-VIRT-DATA-PT-03_2022-U-LOL` folder and then open a Git Bash (Windows) or Terminal (Mac).
+1. Right-click the `MSU-VIRT-DATA-PT-12-2022-U-LOLC` folder and then open a Git Bash (Windows) or Terminal (Mac).
 1. Run `git pull origin main` to pull the new files from GitLab for that week.
 </details>
 
@@ -44,7 +44,7 @@ I will refer to the `ClassRepo` as the folder that contains your actual GitLab r
 This error occurs occasionally.  Here's the scenario - you have pulled files and modified one or more of them.  I then upload changes to that specific file to GitLab.  When you pull, your `git` realizes that the copy it has doesn't match the file from the remote and doesn't know which one has the correct information.  
 What you can do is `stash` your files and look at the incoming updates.  Then if you want you can merge your files with the new files provided.
 1. Open the `ClassRepo` folder.
-1. Right-click the `NU-VIRT-DATA-PT-03_2022-U-LOL` folder and then open a Git Bash (Windows) or Terminal (Mac).
+1. Right-click the `MSU-VIRT-DATA-PT-12-2022-U-LOLC` folder and then open a Git Bash (Windows) or Terminal (Mac).
 1. Run `git stash` to stash any changes you may have made in previous lessons.  This is like hiding a copy in the background.
 1. Run `git pull` to pull the new files from GitLab for that week.  At this point you can go back and review the changed files so see if your changes need to be included.
 1. If you want your changes included in the files then Run `git stash pop` to merge your edits with the new edits. 
