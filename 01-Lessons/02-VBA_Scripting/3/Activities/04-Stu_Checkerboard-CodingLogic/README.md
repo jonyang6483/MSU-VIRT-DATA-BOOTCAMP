@@ -16,4 +16,4 @@ Using VBA scripts, create an 8-by-8 grid with alternating red and black squares.
 
 —
 
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

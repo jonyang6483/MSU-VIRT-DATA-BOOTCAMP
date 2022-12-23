@@ -12,6 +12,6 @@ In this second part of this activity, you will combine all the worksheets into o
 
 Data Source: [U.S. Census API - ACS 5-Year Estimates 2016-2019](https://www.census.gov/data/developers/data-sets/census-microdata-api.ACS_5-Year_PUMS.html)
 
-—
+— 
 
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.

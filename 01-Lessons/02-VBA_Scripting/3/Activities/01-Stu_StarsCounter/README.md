@@ -12,11 +12,11 @@ Create a VBA script that tallies the number of "Full Stars" per row and enters t
 
 Instead of hard-coding the final number of the loop, use VBA to determine the last row automatically (so, do not use `for i = 2 to 51`).
 
-Create two charts:
+Create two charts: 
 
 * A bar chart to check if there is a relationship between program type and rating.
 
-* A line graph to see if there is a relationship between date and rating.
+* A line graph to see if there is a relationship between date and rating. 
 
 ## Hints
 
@@ -26,4 +26,4 @@ Create two charts:
 
 —
 
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+© 2022 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
