@@ -1,0 +1,50 @@
+## Here are some examples of commands for terminal/gitbash that you can try
+
+`cd Desktop` will change to the desktop directory
+
+`mkdir PythonStuff` will make a new directory/folder on the desktop.
+
+`cd PythonStuff` will move to the newly created folder
+
+`open .` on a Mac or `explorer .` on a Windows will open the current folder
+
+`touch first_file.py` will create a file called first_file.py
+
+`touch second_file.py` will create a second file
+
+
+## Below are more commands
+
+`pwd` shows the current directory.
+
+`ls` will show what is in the current directory
+
+`ls -a` will show all files including hidden ones in the current director
+
+`cd ..` will move us up a directory back to Desktop
+
+cd <folder name>  changes the directory - go into the specified folder
+
+cd ~ changes to the home directory.
+
+cd .. moves up one directory.
+
+cd ../.. moves up two directory folders
+
+mkdir <FOLDERNAME> creates a new directory with the FOLDERNAME.
+
+touch <FILENAME.extension> creates a new file with the FILENAME. See examples above.
+
+rm <FILENAME> deletes a file.
+
+rm -r <FOLDERNAME> deletes a folder; note the “-r” to students.
+
+open . opens the current folder on Macs.
+
+explorer . opens the current folder on Windows.
+
+code . opens the current folder in VSCode
+
+open <FILENAME> opens a specific file on Macs.
+
+explorer <FILENAME> opens a specific file on Windows.
