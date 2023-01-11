@@ -11,6 +11,7 @@ I will be updating the `00-Documents` folder to include the following:
   * Detailed Git, Terminal, and other procedures:
     * [Python/Anaconda installation](./00-Documents/conda_installation.md)
     * [SSH Key Setup](00-Documents/ssh-keys_setup.md)
+    * [Guide to Writing nice README files](00-Documents/readme_guide.md)
 
 
 # GitLab  
